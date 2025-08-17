@@ -5,6 +5,7 @@ import { Container } from 'react-bootstrap';
 
 import Movie from './Movie';
 import Booking from './Booking';
+import Login from './Authentication/Login';
 function App() {
     return (
         <Container>
@@ -13,7 +14,7 @@ function App() {
           <Routes>
             <Route path="/movies" element={<Movie />} />
             <Route path="/booking/create" element={<Booking />} />
-           
+            <Route path='/' element={<Login/>}/>
           </Routes>
         </div>
       </BrowserRouter>
