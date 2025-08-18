@@ -6,6 +6,7 @@ import { Container } from 'react-bootstrap';
 import Movie from './Movie';
 import Booking from './Booking';
 import Login from './Authentication/Login';
+import Admin from './AccountController/Admin';
 function App() {
     return (
         <Container>
@@ -15,6 +16,7 @@ function App() {
             <Route path="/movies" element={<Movie />} />
             <Route path="/booking/create" element={<Booking />} />
             <Route path='/' element={<Login/>}/>
+            <Route path='/admin' element={<Admin/>} />
           </Routes>
         </div>
       </BrowserRouter>

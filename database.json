@@ -71,6 +71,20 @@
       "name": "Jane Smith"
     }
   ],
+  "accounts": [
+    {
+      "id": "1",
+      "name": "Tri123",
+      "pass":"12345",
+      "role":"user"
+    },
+    {
+      "id": "2",
+      "name": "Admin",
+      "pass":"12345",
+      "role":"admin"
+    }
+  ],
   "bookings": [
     {
       "id": "1",
